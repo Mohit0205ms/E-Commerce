@@ -1,0 +1,15 @@
+.Filter-Container{
+    width:20%;
+    height:100vh;
+    padding-top:20px;
+    background-color:rgb(226, 223, 223);
+}
+.Filter-heading, .Filter-Categories-heading, .Filter-Price-heading{
+    font-size:25px;
+    font-weight:500;
+    font-family: sans-serif;
+    text-decoration: underline black;
+}
+.Filter-section{
+    line-height:40px;
+}

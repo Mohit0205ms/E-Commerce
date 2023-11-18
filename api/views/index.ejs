@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="Login-Page">
+        <form action="/api/auth/register" method="post">
+            <label for="">Name</label>
+            <input type="text" name="name" placeholder="name" required /><br />
+            <label for="">Emial</label>
+            <input type="email" name="email" placeholder="name" required /><br />
+            <label for="">password</label>
+            <input type="password" name="password" placeholder="name" required /><br />
+            <label for="">phone</label>
+            <input type="number" name="phone" placeholder="name" required /><br />
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

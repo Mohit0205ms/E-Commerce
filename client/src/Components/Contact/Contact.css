@@ -1,0 +1,63 @@
+.Contact-Container{
+    width:100%;
+    padding:20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.Contact-header-section{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Contact-heading-heading{
+    font-size:25px;
+    color:white;
+}
+.Contact-heading-info{
+    font-size:15px;
+    color:grey;
+}
+.Contact-heading-icons{
+    width:200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.Contact-Products-section{
+    flex:1;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.Contact-Products-section ul li{
+    list-style: none;
+    line-height:40px;
+    color: grey;
+}
+.Contact-Products-section ul li:hover{
+    color:goldenrod;
+}
+
+@media screen and (max-width:830px){
+    .Contact-Container{
+        width:100%;
+        padding:20px;
+        display: flex;
+        flex-direction:column;
+        /* justify-content: space-between; */
+        background-color: black;
+    }
+    .Contact-header-section{
+        flex:1;
+        margin-bottom:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

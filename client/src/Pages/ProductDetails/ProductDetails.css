@@ -1,0 +1,38 @@
+.ProductDetails-Container{
+    padding-top:50px;
+}
+.ProductDetails-TopContainer{
+    display: flex;
+    justify-content:center;
+}
+.ProductDetails-Top-Left-Section{
+    display:flex;
+    flex-direction: column;
+}
+.ProductDetail-Final-Image{
+    width:400px;
+    height:400px;
+    margin-left:100px;
+}
+.ProductDetails-Detail-Section{
+    padding-top:50px;
+    padding-bottom:30px;
+    display: flex;
+    flex-direction: column;
+}
+.ProductDetails-Detail-heading{
+    margin-bottom:10px;
+    font-size:30px;
+}
+.ProductDetails-Price{
+    margin-bottom:10px;
+    font-size:20px;
+}
+.ProductDetails-Button{
+    width:150px;
+    height:50px;
+    font-size:20px;
+    margin-right:50px;
+    background-color:black;
+    color: white;
+}

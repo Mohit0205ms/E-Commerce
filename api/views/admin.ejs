@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="/api/posts" method="POST" enctype="multipart/form-data">
+        <label>Name</label>
+        <input type="text" name="name" placeholder="enter name" /><br/>
+        <label>Description</label>
+        <textarea type="text" name="desc"></textarea><br/>
+        <select name="type">
+            <option>T-shirt</option>
+            <option>shirt</option>
+            <option>jeans</option>
+            <option>Lower</option>
+        </select><br/>
+        <label>img</label>
+        <input type="file" name="image"/><br/>
+        <label>Price</label>
+        <input type="number" name="price" placeholder="enter price"/><br/>
+        <input type="submit">
+    </form>
+</body>
+</html>

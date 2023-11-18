@@ -1,0 +1,68 @@
+.Header-Container{
+    width:100%;
+    height:100vh;
+    background-image:url("../../../public/assets/hero/hero-1.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.Header-Info{
+    width:40%;
+    height:60%;
+    margin-top:150px;
+    background-color:transparent;
+}
+.Header-Info-Heading{
+    font-size:34px;
+    font-weight:600;
+}
+.Header-Info-information-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Header-Info-button{
+    width:180px;
+    height:60px;
+    margin-top:20px;
+    font-size:20px;
+    background-color:black;
+    color:white;
+}
+
+@media screen and (max-width:990px){
+    .Header-Container{
+        width:100%;
+        height:100vh;
+        background-image:url("../../../public/assets/hero/hero-1.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Header-Info{
+        width:60%;
+        height:60%;
+        margin-top:50px;
+        background-color:transparent;
+    }
+    .Header-Info-Heading{
+        font-size:30px;
+        font-weight:600;
+    }
+    .Header-Info-information-Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Header-Info-button{
+        width:150px;
+        height:60px;
+        margin-top:20px;
+        font-size:17px;
+        background-color:black;
+        color:white;
+    }
+}

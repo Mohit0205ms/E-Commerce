@@ -1,0 +1,11 @@
+.Shop-Container{
+    display: flex;
+}
+.Shoping-Product-list-container{
+    width:80%;
+    height:100vh;
+    padding-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}

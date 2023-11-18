@@ -1,0 +1,13 @@
+.TopDeals-Container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width:990px) {
+    .TopDeals-Container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}

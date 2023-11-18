@@ -1,0 +1,210 @@
+.Navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 80px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.86);
+}
+.Navbar-heading{
+    font-size:30px;
+    font-weight:700;
+}
+.Navbar-Toolbar{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Navbar-Toolbar{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar-Menu-bar{
+    flex:4;
+    margin-top:10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.Navbar-Menu-bar li{
+    list-style: none;
+}
+.Navbar-Menu-bar li:hover{
+    text-decoration: 5px underline goldenrod;
+}
+.Navbar-Menu-bar li a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-weight:500;
+}
+.Navbar-icons{
+    flex:2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navbar-Cart-icon{
+    width:32px;
+    height:32px;
+}
+
+/* Toggle bar */
+.Navbar-Mobile-Menu-Container{
+    display: none;
+}
+.Navbar-Mobile-Menu{
+    width:2rem;
+    height:2rem;
+}
+
+/* media queries */
+@media screen and (max-width:990px){
+    .Navbar-container{
+        justify-content: space-between;
+    }
+    .Navbar-Toolbar{
+        flex-direction: column;
+    }
+    .Navbar-Menu-bar{
+        flex-direction: column;
+    }
+    .Navbar-icons{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .Navbar-Cart-icon{
+        margin-top:10px;
+    }
+    .Navbar-Mobile-Menu{
+        width:2rem;
+        height:2rem;
+        margin-right:-500px;
+    }
+    #Navbar-Toolbar{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content:flex-start;
+        position:fixed;
+        top:86px;
+        right:-300px;
+        width:300px;
+        height: 100vh;
+        background-color:white;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding:40px 0 0 10px;
+        transition:0.3s ease-in-out;
+    }
+    #Navbar-Toolbar.active{
+        right: 0px;
+    }
+    #Navbar-Toolbar li{
+        margin-bottom: 25px;
+    }
+    .Navbar-Mobile-Menu-Container{
+        display:block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:750px){
+    .Navbar-container{
+        justify-content: space-between;
+    }
+    .Navbar-Toolbar{
+        flex-direction: column;
+    }
+    .Navbar-Menu-bar{
+        flex-direction: column;
+    }
+    .Navbar-icons{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .Navbar-Cart-icon{
+        margin-top:10px;
+    }
+    .Navbar-Mobile-Menu{
+        width:2rem;
+        height:2rem;
+        margin-right:-200px;
+    }
+    #Navbar-Toolbar{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content:flex-start;
+        position:fixed;
+        top:86px;
+        right:-300px;
+        width:300px;
+        height: 100vh;
+        background-color:white;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding:40px 0 0 10px;
+        transition:0.3s ease-in-out;
+    }
+    #Navbar-Toolbar.active{
+        right: 0px;
+    }
+    #Navbar-Toolbar li{
+        margin-bottom: 25px;
+    }
+    .Navbar-Mobile-Menu-Container{
+        display:block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:450px){
+    .Navbar-container{
+        justify-content: space-between;
+    }
+    .Navbar-Toolbar{
+        flex-direction: column;
+    }
+    .Navbar-Menu-bar{
+        flex-direction: column;
+    }
+    .Navbar-icons{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .Navbar-Cart-icon{
+        margin-top:10px;
+    }
+    .Navbar-Mobile-Menu{
+        width:2rem;
+        height:2rem;
+        margin-right:-100px;
+    }
+    #Navbar-Toolbar{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content:flex-start;
+        position:fixed;
+        top:86px;
+        right:-300px;
+        width:300px;
+        height: 100vh;
+        background-color:white;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding:40px 0 0 10px;
+        transition:0.3s ease-in-out;
+    }
+    #Navbar-Toolbar.active{
+        right: 0px;
+    }
+    #Navbar-Toolbar li{
+        margin-bottom: 25px;
+    }
+    .Navbar-Mobile-Menu-Container{
+        display:block;
+        cursor: pointer;
+    }
+}

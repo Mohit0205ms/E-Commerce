@@ -1,0 +1,61 @@
+.Products-Container{
+    width:100%;
+    padding-bottom:30px;
+    margin-top:50px;
+}
+.Products-Container a{
+    text-decoration: none;
+    color: black;
+}
+.Tshirt-heading{
+    font-size:35px;
+    font-weight:700;
+}
+.Tshirt-product-list{
+    width:100%;
+    margin-top:20px;
+    display: flex;
+    overflow:auto;
+}
+
+.Shirt-Container{
+    padding-top:50px;
+}
+.Shirt-heading{
+    font-size:35px;
+    font-weight:700;
+}
+.Shirt-product-list{
+    width:100%;
+    margin-top:20px;
+    display: flex;
+    overflow:auto;
+}
+
+.Jeans-Container{
+    padding-top:50px;
+}
+.Jeans-heading{
+    font-size:35px;
+    font-weight:700;
+}
+.Jeans-product-list{
+    width:100%;
+    margin-top:20px;
+    display: flex;
+    overflow:auto;
+}
+
+.Lower-Container{
+    padding-top:50px;
+}
+.Lower-heading{
+    font-size:35px;
+    font-weight:700;
+}
+.Lower-product-list{
+    width:100%;
+    margin-top:20px;
+    display: flex;
+    overflow:auto;
+}
