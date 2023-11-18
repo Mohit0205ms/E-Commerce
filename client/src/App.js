@@ -19,7 +19,6 @@ function App() {
           <Route path='/error' element={<Error/>} />
         </Routes>
       </BrowserRouter>
-      {/* <Error/> */}
     </div>
   );
 }
