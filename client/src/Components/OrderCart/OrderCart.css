@@ -1,4 +1,4 @@
-.CartCard-Container{
+.OrderCart-Container{
     width:330px;
     height:400px;
     margin-left:20px;
@@ -7,11 +7,11 @@
     position: relative;
     background-color:rgb(241, 239, 239);
 }
-.CartCard-Image{
+.OrderCart-Image{
     width:330px;
     height:270px;
 }
-.CartCard-Information-Manipulation-section{
+.OrderCart-Information-Manipulation-section{
     width:100%;
     padding-left:20px;
     position: relative;
@@ -19,24 +19,24 @@
     flex-direction: column;
     align-items: start;
 }
-.CartCard-Heading{
+.OrderCart-Heading{
     font-size:25px;
 }
-.CartCard-Price{
+.OrderCart-Price{
     margin-top:5px;
     margin-bottom:10px;
     font-size:20px;
     font-weight:500;
 }
-.CartCard-Manipulation-section{
+.OrderCart-Manipulation-section{
     width:100%;
     display:flex;
     justify-content: space-around;
 }
-.CartCard-Manipulation-section img:hover{
+.OrderCart-Manipulation-section img:hover{
     cursor: pointer;
 }
-.CartCard-quantity{
+.OrderCart-quantity{
     font-size:25px;
     font-weight:600;
 }

@@ -1,0 +1,9 @@
+
+.CartList-Container{
+    width:100%;
+    height:100vh;
+    padding-top:20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}

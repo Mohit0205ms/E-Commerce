@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     padding:20px 80px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.86);
+    position:sticky;
+    top:0;
+    z-index:999;
+    background-color: white;
 }
 .Navbar-heading{
     font-size:30px;
@@ -50,6 +53,7 @@
 .Navbar-Cart-icon{
     width:32px;
     height:32px;
+    cursor:pointer;
 }
 
 /* Toggle bar */

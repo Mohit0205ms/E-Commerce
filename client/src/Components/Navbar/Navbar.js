@@ -27,6 +27,10 @@ function Navbar() {
             }
         }
     }
+    // handling cart click
+    const handleCart=()=>{
+        window.location.href="/cart";
+    }
     return (
         <div className="Navbar-container">
             <span className="Navbar-heading">Men's Fashion</span>
@@ -34,14 +38,14 @@ function Navbar() {
                 <div id="Navbar-Toolbar"className={clicked ? "Navbar-Menu-Container active" : "Navbar-Menu-Container"}>
                     <ul className="Navbar-Menu-bar">
                         <li className="Navbar-Menu"><a href="/">Home</a></li>
-                        <li className="Navbar-Menu"><a href="#">About</a></li>
+                        <li className="Navbar-Menu"><a href="/order">Orders</a></li>
                         <li className="Navbar-Menu"><a href="/shop">Shop</a></li>
                         <li className="Navbar-Menu"><a href="#">Contact</a></li>
                     </ul>
                     <div className="Navbar-icons">
                         <input type="text" placeholder="search" onKeyDown={HandlePage} />
                         <div>
-                            <img className="Navbar-Cart-icon" src="assets/images/cart.png" alt="image" />
+                            <img className="Navbar-Cart-icon" src="assets/images/cart.png" alt="image" onClick={handleCart} />
                             <span className="Navbar-Cart-size">1</span>
                         </div>
                     </div>
