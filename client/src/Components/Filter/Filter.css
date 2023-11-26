@@ -13,3 +13,21 @@
 .Filter-section{
     line-height:40px;
 }
+@media only screen and (max-width:500px){
+    .Filter-Container{
+        width:100%;
+        height:30vh;
+        padding-top:20px;
+        background-color:rgb(226, 223, 223);
+    }
+    .Filter-Categories-filter{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Filter-Price-filter{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+}

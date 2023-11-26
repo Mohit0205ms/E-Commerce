@@ -4,6 +4,8 @@
     height:100vh;
     padding-top:20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     overflow: auto;
 }

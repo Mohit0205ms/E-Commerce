@@ -7,12 +7,14 @@ import ProductDetails from './Pages/ProductDetails/ProductDetails';
 import Error from './Pages/Error/Error';
 import CartList from './Pages/CartList/CartList';
 import OrderList from './Pages/OrderedList/OrderedList';
+import LoginPage from './Pages/LoginPage/LoginPage';
+import Register from './Pages/RegisterPage/Register';
 import { BrowserRouter ,Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Landing/>} />
@@ -21,8 +23,10 @@ function App() {
           <Route path='/error' element={<Error/>} />
           <Route path='/cart' element={<CartList/>}/>
           <Route path="/order" element={<OrderList/>} />
+          <Route path='/login' element={<LoginPage/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <Register/>
     </div>
   );
 }

@@ -13,14 +13,14 @@ export default function ProductDetails(){
     return(
         <div className="ProductDetails-Container">
             <div className="ProductDetails-TopContainer">
+                <div className="ProductDetails-Top-Right-Section">
+                    <img className="ProductDetail-Final-Image" src={image} alt="" />
+                </div>
                 <div className="ProductDetails-Top-Left-Section">
                     <img className="ProductDetails-Top-Left-Images image" name="thumb-1.png" add="shop-details" onClick={handleClick} src="assets/shop-details/thumb-1.png" alt="image" />
                     <img className="ProductDetails-Top-Left-Images image" name="thumb-2.png" add="shop-details" onClick={handleClick} src="assets/shop-details/thumb-2.png" alt="image" />
                     <img className="ProductDetails-Top-Left-Images image" name="thumb-3.png" file="shop-details" onClick={handleClick} src="assets/shop-details/thumb-3.png" alt="image" />
                     <img className="ProductDetails-Top-Left-Images image" name="thumb-4.png" file="shop-details" onClick={handleClick} src="assets/shop-details/thumb-4.png" alt="image" />
-                </div>
-                <div className="ProductDetails-Top-Right-Section">
-                    <img className="ProductDetail-Final-Image" src={image} alt="" />
                 </div>
             </div>
             <div className="ProductDetails-Detail-Section">
