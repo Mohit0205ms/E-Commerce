@@ -14,7 +14,7 @@ import { BrowserRouter ,Routes,Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/>
+      <Navbar/>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Landing/>} />
@@ -24,9 +24,9 @@ function App() {
           <Route path='/cart' element={<CartList/>}/>
           <Route path="/order" element={<OrderList/>} />
           <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/register' element={<Register/>}/>
         </Routes>
-      </BrowserRouter> */}
-      <Register/>
+      </BrowserRouter>
     </div>
   );
 }
