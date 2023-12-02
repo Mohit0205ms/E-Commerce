@@ -2,8 +2,9 @@ const router = require('express').Router();
 const User = require("../Model/user");
 
 // register
-router.post("/register", (req, res) => {
+router.post("/register", async (req, res) => {
     try {
+        console.log(req.body);
         if (req.body.email === "admin0205@gmail.com") {
             res.status(500).json("this email can not be cosidered");
         }
@@ -16,7 +17,7 @@ router.post("/register", (req, res) => {
                     phone: req.body.phone
                 }
             )
-            const user = newUser.save();
+            const user = await newUser.save();
             res.status(200).json(user);
         }
     } catch (e) {
