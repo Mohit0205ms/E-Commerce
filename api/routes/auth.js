@@ -28,6 +28,7 @@ router.post("/register", async (req, res) => {
 // login
 router.post("/login", async (req, res) => {
     try {
+        console.log(req.body);
         if (req.body.email==="admin0205@gmail.com" && req.body.password==="mohit#chitkara@") {
             res.status(200).render("admin");
         }
