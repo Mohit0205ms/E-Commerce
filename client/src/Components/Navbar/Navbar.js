@@ -40,7 +40,7 @@ function Navbar() {
                         <li className="Navbar-Menu"><a href="/">Home</a></li>
                         <li className="Navbar-Menu"><a href="/order">Orders</a></li>
                         <li className="Navbar-Menu"><a href="/shop">Shop</a></li>
-                        <li className="Navbar-Menu"><a href="#">Contact</a></li>
+                        <li className="Navbar-Menu"><a href="/register">Sign In</a></li>
                     </ul>
                     <div className="Navbar-icons">
                         <input type="text" placeholder="search" onKeyDown={HandlePage} />

@@ -17,6 +17,7 @@ export default function LoginPage(){
         try{
             const res=await axios.post("/auth/login",user);
             console.log(res.data);
+            localStorage.setItem('user',JSON.stringify(res.data));
             Navigate("/cart");
         }catch(e){
             console.log("not able to login "+e);
@@ -32,7 +33,7 @@ export default function LoginPage(){
                     <input className="LoginPage-password" type="password" placeholder="Password" name="password" ref={password} />
                     <button className="LoginPage-Login-button" type="submit">Login</button>
                 </form>
-                <button className="LoginPage-Create-Account">Create new account</button>
+                <button className="LoginPage-Create-Account"><a href="/register">Create new account</a></button>
             </div>
         </div>
     )

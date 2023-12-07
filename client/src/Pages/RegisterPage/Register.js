@@ -44,6 +44,7 @@ export default function Register(){
                     <input className="Register-phoneNo" type="text" placeholder="Enter Phone no" ref={UserPhone} name="phone" />
                     <button className="Register-button" type="submit" >Create User</button>
                 </form>
+                <a href="/login" className="Register-form-login">Login</a>
             </div>
         </div>
     )

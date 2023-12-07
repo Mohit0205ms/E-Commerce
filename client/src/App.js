@@ -9,7 +9,8 @@ import CartList from './Pages/CartList/CartList';
 import OrderList from './Pages/OrderedList/OrderedList';
 import LoginPage from './Pages/LoginPage/LoginPage';
 import Register from './Pages/RegisterPage/Register';
-import { BrowserRouter ,Routes,Route } from 'react-router-dom';
+import { BrowserRouter ,Routes,Route,redirect } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Navbar/>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Landing/>} />
+          <Route path='/' element={ <Landing/>} />
           <Route path='/shop' element={<Shop/>} />
           <Route path='/productdetails' element={<ProductDetails/>} />
           <Route path='/error' element={<Error/>} />
