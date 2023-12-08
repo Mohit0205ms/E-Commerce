@@ -50,4 +50,23 @@ router.post("/login", async (req, res) => {
     }
 });
 
+// add to cart
+router.post("/cart/:id",async (req,res)=>{
+    try{
+        const user = await User.findById(req.body.id);
+        if(!user.cart.includes(req.params.id)){
+            await user.updateOne({$push:{cart : req.params.id}});
+            res.status(200).json("we are succesfuly added item to cart");
+        }
+        else{
+            res.status(403).json("you already includes this user");
+        }
+    }
+    catch(err){
+        console.log("we can not add this item to cart "+err);
+        res.status(500).json("some error on add to cart on api side.");
+    }
+})
+
+
 module.exports = router;

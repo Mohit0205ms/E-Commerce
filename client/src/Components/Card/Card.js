@@ -1,6 +1,8 @@
 import "./Card.css";
+import {useState} from "react";
 
 export default function Card(props){
+    const [userId,setUserId]=useState(props.id);
     const HandleRedirect=()=>{
         window.location.href=`/productdetails`;
     }
