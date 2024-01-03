@@ -11,18 +11,20 @@
 <h3>Responsive Design:</h3> <h4>Ensures compatibility across different devices and screen sizes.</h4>
 
 <h2>Technologies Used</h2>
-<h3>Frontend:</h3>
-React.js
-HTML5/CSS3
-JavaScript
-Backend:
 
-Node.js
-Express.js
-MongoDB
-Setup Instructions
-Clone the repository: git clone <repository-url>
-Navigate to the project directory: cd mens-fashion
+<h3>Frontend:</h3>
+<h4>React.js</h4>
+<h4>HTML5/CSS3</h4>
+<h4>JavaScript</h4>
+
+<h3>Backend:</h3>
+<h4><Node.js</h4>
+<h4>Express.js</h4>
+<h4>MongoDB</h4>
+
+<h2>Setup Instructions</h2>
+<h3>
+Clone the repository: git clone <repository-url></br>
 Install dependencies: npm install
 Start the server: npm start
 Open your browser and visit: http://localhost:3000
@@ -30,10 +32,5 @@ Usage
 Upon opening the application, users can:
 Sign up or log in to their accounts.
 Browse through different product categories.
-Add items to their cart and proceed to checkout.
-View and manage their orders.
-Contributors
-Your Name
-Contributor Name
-License
-This project is licensed under the MIT License.
+Add items to their cart.
+</h3>
