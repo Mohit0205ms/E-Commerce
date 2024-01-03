@@ -1,0 +1,38 @@
+.DeleteCard-Container{
+    width:330px;
+    height:400px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    position: relative;
+    background-color:rgb(241, 239, 239);
+}
+.DeleteCard-Image{
+    width:330px;
+    height:270px;
+}
+.DeleteCard-Information-Manipulation-section{
+    width:100%;
+    padding-left:20px;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+.DeleteCard-Heading{
+    font-size:25px;
+}
+.DeleteCard-Price{
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:20px;
+    font-weight:500;
+}
+.DeleteCard-Manipulation-section{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+.DeleteCard-Manipulation-section img:hover{
+    cursor: pointer;
+}

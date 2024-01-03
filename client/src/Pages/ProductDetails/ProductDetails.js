@@ -2,11 +2,18 @@ import "./ProductDetails.css";
 import Card from "../../Components/Card/Card";
 import Contact from "../../Components/Contact/Contact";
 import { Products } from "../../Data/Products";
-import { useState } from "react";
+import { useState,useEffect } from "react";
+import axios from "axios";
 
 export default function ProductDetails(){
     
     const [image,setImage]=useState("assets/shop-details/thumb-1.png");
+    const [data,setData] = useState([]);
+    useEffect( ()=>{
+        axios.post("/posts/delete")
+        .then(res=>setData(res.data))
+        .catch(err=>console.log(err));
+    },[])
     const handleClick=(e)=>{
         setImage(e.target.src);
     }
@@ -34,7 +41,7 @@ export default function ProductDetails(){
             <div className="Tshirt-Container">
                 <span className="Tshirt-heading">Related</span>
                 <div className="Tshirt-product-list">
-                    {Products.map((product)=>{
+                    {data.map((product)=>{
                         return <Card name={product.name} img={product.img} price={product.price} />
                     })}
                 </div>

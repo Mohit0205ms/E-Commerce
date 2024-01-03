@@ -14,7 +14,7 @@ export default function Filter({ find }) {
         const isJeans = jeans.current.checked;
         const isLower = lower.current.checked;
         if (isTshirt) {
-            return find("tshirt");
+            return find("T-shirt");
         }
         if (isShirt) {
             return find("shirt");
@@ -23,7 +23,7 @@ export default function Filter({ find }) {
             return find("jeans");
         }
         if (isLower) {
-            return find("lower");
+            return find("Lower");
         }
         if (!isTshirt || !isJeans || !isLower || !isShirt) {
             return find("");

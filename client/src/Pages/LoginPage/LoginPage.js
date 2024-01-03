@@ -15,10 +15,15 @@ export default function LoginPage(){
             password:password.current.value
         }
         try{
-            const res=await axios.post("/auth/login",user);
-            console.log(res.data);
-            localStorage.setItem('user',JSON.stringify(res.data));
-            Navigate("/cart");
+            if(email.current.value==="admin0205@gmail.com" && password.current.value==="mohit#chitkara@"){
+                Navigate("/admin");
+            }
+            else{
+                const res=await axios.post("/auth/login",user);
+                console.log(res.data);
+                localStorage.setItem('user',JSON.stringify(res.data));
+                window.location.reload();
+            }
         }catch(e){
             console.log("not able to login "+e);
         }

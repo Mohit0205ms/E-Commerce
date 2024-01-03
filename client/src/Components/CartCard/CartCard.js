@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./CartCard.css";
 
-export default function CartCard(){
+export default function CartCard(props){
     const [qnty,setQnty]=useState(1);
     const handlingPlus =()=>{
         setQnty(qnty+1);
@@ -13,10 +13,11 @@ export default function CartCard(){
     }
     return(
         <div className="CartCard-Container">
-            <img className="CartCard-Image" src="assets/Tshirt/Tshirt1.jpg" alt=""/>
+            {/* <img className="CartCard-Image" src="assets/Tshirt/Tshirt1.jpg" alt=""/> */}
+            <img className="CartCard-Image" src={"http://localhost:8000/images/"+props.img[0]} alt=""/>
             <div className="CartCard-Information-Manipulation-section">
-                <span className="CartCard-Heading">T-shirt</span>
-                <span className="CartCard-Price">Rs:- 1000</span>
+                <span className="CartCard-Heading">{props.name}</span>
+                <span className="CartCard-Price">Rs:- {props.price} </span>
                 <div className="CartCard-Manipulation-section">
                     <img src="assets/images/plus.png" alt="" onClick={handlingPlus} />
                     <span className="CartCard-quantity">Qnty:-{qnty}</span>
