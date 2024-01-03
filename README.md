@@ -24,7 +24,7 @@
 
 <h2>Setup Instructions</h2>
 <h3>
-Clone the repository: git clone <repository-url></br>
+Clone the repository: git clone "repository-url"</br>
 Install dependencies: npm install
 Start the server: npm start
 Open your browser and visit: http://localhost:3000
