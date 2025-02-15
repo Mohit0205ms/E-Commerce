@@ -41,3 +41,6 @@ Sign up or log in to their accounts.</br>
 Browse through different product categories.</br>
 Add items to their cart.</br>
 </h3>
+
+<h3>Home Page</h3>
+<img src={'https://github.com/user-attachments/assets/83549cab-1ac4-4bd5-abc7-c650389f2de9}/>
