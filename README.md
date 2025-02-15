@@ -33,7 +33,7 @@
 Clone the repository: git clone "repository-url"</br>
 Install dependencies: npm install</br>
 Start the server: npm start</br>
-Open your browser and visit: http://localhost:3000</br>![pic2](https://github.com/user-attachments/assets/7d1f5f8b-f800-4f43-be11-01aff27ce43c)
+Open your browser and visit: http://localhost:3000</br>
 
 Usage</br>
 Upon opening the application, users can:</br>
@@ -41,8 +41,9 @@ Sign up or log in to their accounts.</br>
 Browse through different product categories.</br>
 Add items to their cart.</br>
 </h3>
-
 <h3>Home Page</h3>
+<img src="https://github.com/user-attachments/assets/ce729a4e-f2e0-4af8-98d2-16f66463a3d5"/>
+<h3>Product Detail Page</h3>
 <img src="https://github.com/user-attachments/assets/7d1f5f8b-f800-4f43-be11-01aff27ce43c"/>
 <h3>Products page</h3>
 <img src="https://github.com/user-attachments/assets/83549cab-1ac4-4bd5-abc7-c650389f2de9"/>
