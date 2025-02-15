@@ -13,9 +13,11 @@
 <h2>Technologies Used</h2>
 
 <h3>Frontend:</h3>
-<ul><h4>React.js</h4></ul>
-<ul><h4>HTML5/CSS3</h4></ul>
-<ul><h4>JavaScript</h4></ul>
+<li>
+  <ul><h4>React.js</h4></ul>
+  <ul><h4>HTML5/CSS3</h4></ul>
+  <ul><h4>JavaScript</h4></ul>
+</li>
 
 <h3>Backend:</h3>
 <h4><Node.js</h4>
