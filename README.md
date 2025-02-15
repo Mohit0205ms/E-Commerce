@@ -43,4 +43,4 @@ Add items to their cart.</br>
 </h3>
 
 <h3>Home Page</h3>
-<img src={'https://github.com/user-attachments/assets/83549cab-1ac4-4bd5-abc7-c650389f2de9} width="500" height="500"/>
+<img src="https://github.com/user-attachments/assets/83549cab-1ac4-4bd5-abc7-c650389f2de9" width="500" height="500"/>
