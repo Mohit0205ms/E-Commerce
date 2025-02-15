@@ -27,7 +27,7 @@
   <li><h4>MongoDB</h4></li>
 </ul>
 
-<h2>Setup Instructions</h2>![pic3](https://github.com/user-attachments/assets/83549cab-1ac4-4bd5-abc7-c650389f2de9)
+<h2>Setup Instructions</h2>
 
 <h3>
 Clone the repository: git clone "repository-url"</br>
@@ -43,4 +43,6 @@ Add items to their cart.</br>
 </h3>
 
 <h3>Home Page</h3>
+<img src="https://github.com/user-attachments/assets/7d1f5f8b-f800-4f43-be11-01aff27ce43c"/>
+<h3>Products page</h3>
 <img src="https://github.com/user-attachments/assets/83549cab-1ac4-4bd5-abc7-c650389f2de9"/>
