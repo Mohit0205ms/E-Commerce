@@ -13,8 +13,7 @@
 <h2>Technologies Used</h2>
 
 <h3>Frontend:</h3>
-<ul>![pic1](https://github.com/user-attachments/assets/ce729a4e-f2e0-4af8-98d2-16f66463a3d5)
-
+<ul>
   <li><h4>React.js</h4></li>
   <li><h4>HTML5/CSS3</h4></li>
   <li><h4>JavaScript</h4></li>
