@@ -20,9 +20,11 @@
 </ul>
 
 <h3>Backend:</h3>
-<h4><Node.js</h4>
-<h4>Express.js</h4>
-<h4>MongoDB</h4>
+<ul>
+  <li><h4>Node.js</h4></li>
+  <li><h4>Express.js</h4></li>
+  <li><h4>MongoDB</h4></li>
+</ul>
 
 <h2>Setup Instructions</h2>
 <h3>
