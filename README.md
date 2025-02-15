@@ -13,7 +13,8 @@
 <h2>Technologies Used</h2>
 
 <h3>Frontend:</h3>
-<ul>
+<ul>![pic1](https://github.com/user-attachments/assets/ce729a4e-f2e0-4af8-98d2-16f66463a3d5)
+
   <li><h4>React.js</h4></li>
   <li><h4>HTML5/CSS3</h4></li>
   <li><h4>JavaScript</h4></li>
@@ -26,12 +27,14 @@
   <li><h4>MongoDB</h4></li>
 </ul>
 
-<h2>Setup Instructions</h2>
+<h2>Setup Instructions</h2>![pic3](https://github.com/user-attachments/assets/83549cab-1ac4-4bd5-abc7-c650389f2de9)
+
 <h3>
 Clone the repository: git clone "repository-url"</br>
 Install dependencies: npm install</br>
 Start the server: npm start</br>
-Open your browser and visit: http://localhost:3000</br>
+Open your browser and visit: http://localhost:3000</br>![pic2](https://github.com/user-attachments/assets/7d1f5f8b-f800-4f43-be11-01aff27ce43c)
+
 Usage</br>
 Upon opening the application, users can:</br>
 Sign up or log in to their accounts.</br>
