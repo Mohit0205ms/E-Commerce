@@ -29,7 +29,7 @@
 <h2>Setup Instructions</h2>
 <h3>
 Clone the repository: git clone "repository-url"</br>
-Install dependencies: npm install
+Install dependencies: \n npm install
 Start the server: npm start
 Open your browser and visit: http://localhost:3000
 Usage
