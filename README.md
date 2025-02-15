@@ -29,12 +29,12 @@
 <h2>Setup Instructions</h2>
 <h3>
 Clone the repository: git clone "repository-url"</br>
-Install dependencies: \n npm install
-Start the server: npm start
-Open your browser and visit: http://localhost:3000
-Usage
-Upon opening the application, users can:
-Sign up or log in to their accounts.
-Browse through different product categories.
-Add items to their cart.
+Install dependencies: npm install</br>
+Start the server: npm start</br>
+Open your browser and visit: http://localhost:3000</br>
+Usage</br>
+Upon opening the application, users can:</br>
+Sign up or log in to their accounts.</br>
+Browse through different product categories.</br>
+Add items to their cart.</br>
 </h3>
